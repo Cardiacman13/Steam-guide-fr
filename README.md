@@ -2,20 +2,21 @@
 
 Apprenez à configurer et optimiser Steam sur Linux pour une expérience de jeu fluide. Ce guide couvre les réglages essentiels, de la gestion des disques à la résolution des problèmes fréquents.
 
+
 ## 📌 Table des Matières
 
-1. [🌍 Changer la Langue](https://www.google.com/search?q=%23changer-la-langue)
-2. [💾 Ajout de Disque & Stockage](https://www.google.com/search?q=%23ajout-de-disque)
-3. [📡 Désactiver Remote Play](https://www.google.com/search?q=%23d%C3%A9sactiver-remote-play)
-4. [📊 Afficher les FPS](https://www.google.com/search?q=%23afficher-les-fps)
-5. [📂 Trouver le chemin d'installation](https://www.google.com/search?q=%23trouver-le-chemin-d-installation-de-vos-jeux)
-6. [🚀 Booster la vitesse de téléchargement](https://www.google.com/search?q=%23astuce-pour-am%C3%A9liorer-la-vitesse-de-t%C3%A9l%C3%A9chargement)
-7. [🛠️ Problèmes d'affichage et compatibilité](https://www.google.com/search?q=%23probl%C3%A8me-de-compatibilit%C3%A9)
-8. [♻️ Réparation et Nettoyage](https://www.google.com/search?q=%23r%C3%A9paration-et-nettoyage)
+1. [🌍 Changer la Langue](#changer-la-langue)
+2. [💾 Ajout de Disque & Stockage](#ajout-de-disque)
+3. [📡 Désactiver Remote Play](#désactiver-remote-play)
+4. [📊 Afficher les FPS](#afficher-les-fps)
+5. [📂 Trouver le chemin d'installation](#trouver-le-chemin-dinstallation-de-vos-jeux)
+6. [🚀 Booster la vitesse de téléchargement](#astuce-pour-améliorer-la-vitesse-de-téléchargement)
+7. [🛠️ Problèmes d'affichage et compatibilité](#problème-de-compatibilité)
+8. [♻️ Réparation et Nettoyage](#réparation-et-nettoyage)
 
 ---
 
-## 🌍 Changer la Langue
+## Changer la Langue
 
 Pour adapter l'interface de Steam à votre préférence :
 
@@ -23,7 +24,7 @@ Pour adapter l'interface de Steam à votre préférence :
 
 ---
 
-## 💾 Ajout de disque
+## Ajout de disque
 
 Gérez vos bibliothèques de jeux sur plusieurs disques (SSD, HDD secondaire) :
 
@@ -37,7 +38,7 @@ Gérez vos bibliothèques de jeux sur plusieurs disques (SSD, HDD secondaire) :
 
 ---
 
-## 📡 Désactiver Remote Play
+## Désactiver Remote Play
 
 Si vous ne jouez pas en streaming vers d'autres appareils, désactivez cette option pour économiser des ressources en arrière-plan :
 
@@ -45,7 +46,7 @@ Si vous ne jouez pas en streaming vers d'autres appareils, désactivez cette opt
 
 ---
 
-## 📊 Afficher les FPS
+## Afficher les FPS
 
 Pour surveiller vos performances sans outils externes complexes :
 
@@ -53,7 +54,7 @@ Pour surveiller vos performances sans outils externes complexes :
 
 ---
 
-## 📂 Trouver le chemin d'installation de vos jeux
+## Trouver le chemin d'installation de vos jeux
 
 Sur Linux, les fichiers sont souvent cachés dans des dossiers complexes. Pour y accéder facilement (modding, sauvegardes manuelles) :
 **Clic droit sur le jeu > Propriétés > Fichiers installés > Parcourir.**
@@ -62,7 +63,7 @@ Sur Linux, les fichiers sont souvent cachés dans des dossiers complexes. Pour y
 
 ---
 
-## 🚀 Astuce pour améliorer la vitesse de téléchargement
+## Astuce pour améliorer la vitesse de téléchargement
 
 Si votre fibre semble bridée sur Steam Linux, désactiver le protocole HTTP2 peut stabiliser et accélérer le débit.
 
@@ -86,7 +87,7 @@ echo "@fDownloadRateImprovementToAddAnotherConnection 1.0" >> ~/.var/app/com.val
 
 ---
 
-## 🛠️ Problème de compatibilité (Interface)
+## Problème de compatibilité
 
 En cas d'écran noir dans la boutique ou de bugs graphiques de l'interface Steam, modifiez ces options dans les paramètres **Interface** :
 
@@ -94,7 +95,7 @@ En cas d'écran noir dans la boutique ou de bugs graphiques de l'interface Steam
 
 ---
 
-## ♻️ Réparation et Nettoyage <a name="réparation-et-nettoyage"></a>
+## Réparation et Nettoyage
 
 Parfois, un jeu refuse de se lancer à cause d'un "préfixe" (le dossier Windows virtuel créé par Proton) corrompu. Voici comment faire le ménage.
 
