@@ -19,7 +19,7 @@ Apprenez à configurer et optimiser Steam sur Linux pour une expérience de jeu 
 
 Pour adapter l'interface de Steam à votre préférence :
 
-![langue](steam-guide-fr/langue.png)
+![langue](steam-post-install/langue.png)
 
 ---
 
@@ -27,7 +27,7 @@ Pour adapter l'interface de Steam à votre préférence :
 
 Gérez vos bibliothèques de jeux sur plusieurs disques (SSD, HDD secondaire) :
 
-![ssd](steam-guide-fr/ssd.png)
+![ssd](steam-post-install/ssd.png)
 
 > 💡 **Disque non reconnu ?**
 > * **Montage automatique :** Consultez notre [guide pour formater et monter un disque](https://codeberg.org/Gaming-Linux-FR/guide-formater-monter).
@@ -41,7 +41,7 @@ Gérez vos bibliothèques de jeux sur plusieurs disques (SSD, HDD secondaire) :
 
 Si vous ne jouez pas en streaming vers d'autres appareils, désactivez cette option pour économiser des ressources en arrière-plan :
 
-![remote](steam-guide-fr/remote.png)
+![remote](steam-post-install/remote.png)
 
 ---
 
@@ -49,7 +49,7 @@ Si vous ne jouez pas en streaming vers d'autres appareils, désactivez cette opt
 
 Pour surveiller vos performances sans outils externes complexes :
 
-![hud](steam-guide-fr/hud.png)
+![hud](steam-post-install/hud.png)
 
 ---
 
@@ -58,7 +58,7 @@ Pour surveiller vos performances sans outils externes complexes :
 Sur Linux, les fichiers sont souvent cachés dans des dossiers complexes. Pour y accéder facilement (modding, sauvegardes manuelles) :
 **Clic droit sur le jeu > Propriétés > Fichiers installés > Parcourir.**
 
-![fichiers](steam-guide-fr/fichier.png)
+![fichiers](steam-post-install/fichier.png)
 
 ---
 
@@ -90,7 +90,7 @@ echo "@fDownloadRateImprovementToAddAnotherConnection 1.0" >> ~/.var/app/com.val
 
 En cas d'écran noir dans la boutique ou de bugs graphiques de l'interface Steam, modifiez ces options dans les paramètres **Interface** :
 
-![compat](steam-guide-fr/compat.png)
+![compat](steam-post-install/compat.png)
 
 ---
 
