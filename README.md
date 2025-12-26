@@ -19,9 +19,7 @@ Apprenez à configurer et optimiser Steam sur Linux pour une expérience de jeu 
 
 Pour adapter l'interface de Steam à votre préférence :
 
-<p align="center">
-<img width="850" src="https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/Steam%2520langue.png" alt="Configuration langue">
-</p>
+![langue](steam-guide-fr/langue.png)
 
 ---
 
@@ -29,9 +27,7 @@ Pour adapter l'interface de Steam à votre préférence :
 
 Gérez vos bibliothèques de jeux sur plusieurs disques (SSD, HDD secondaire) :
 
-<p align="center">
-<img width="850" src="https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/Steam%2520ajout%2520de%2520disque.png" alt="Ajout de disque">
-</p>
+![ssd](steam-guide-fr/ssd.png)
 
 > 💡 **Disque non reconnu ?**
 > * **Montage automatique :** Consultez notre [guide pour formater et monter un disque](https://codeberg.org/Gaming-Linux-FR/guide-formater-monter).
@@ -45,9 +41,7 @@ Gérez vos bibliothèques de jeux sur plusieurs disques (SSD, HDD secondaire) :
 
 Si vous ne jouez pas en streaming vers d'autres appareils, désactivez cette option pour économiser des ressources en arrière-plan :
 
-<p align="center">
-<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/D%C3%A9sactiver%20remote%20play.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/D%25C3%25A9sactiver%2520remote%2520play.png)" alt="Désactiver Remote Play">
-</p>
+![remote](steam-guide-fr/remote.png)
 
 ---
 
@@ -55,9 +49,7 @@ Si vous ne jouez pas en streaming vers d'autres appareils, désactivez cette opt
 
 Pour surveiller vos performances sans outils externes complexes :
 
-<p align="center">
-<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamfps.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamfps.png)" alt="Affichage FPS">
-</p>
+![hud](steam-guide-fr/hud.png)
 
 ---
 
@@ -66,9 +58,7 @@ Pour surveiller vos performances sans outils externes complexes :
 Sur Linux, les fichiers sont souvent cachés dans des dossiers complexes. Pour y accéder facilement (modding, sauvegardes manuelles) :
 **Clic droit sur le jeu > Propriétés > Fichiers installés > Parcourir.**
 
-<p align="center">
-<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steam-fichiers.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steam-fichiers.png)" alt="Parcourir les fichiers">
-</p>
+![fichiers](steam-guide-fr/fichier.png)
 
 ---
 
@@ -100,9 +90,7 @@ echo "@fDownloadRateImprovementToAddAnotherConnection 1.0" >> ~/.var/app/com.val
 
 En cas d'écran noir dans la boutique ou de bugs graphiques de l'interface Steam, modifiez ces options dans les paramètres **Interface** :
 
-<p align="center">
-<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamcompat.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamcompat.png)" alt="Compatibilité interface">
-</p>
+![compat](steam-guide-fr/compat.png)
 
 ---
 
