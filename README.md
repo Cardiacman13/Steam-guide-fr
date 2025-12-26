@@ -1,93 +1,126 @@
-# Steam Linux post installation
+# 🎮 Steam Linux : Optimisation Post-Installation
 
-Découvrez comment configurer Steam sur Linux après l’installation pour profiter au mieux de vos jeux. Ce guide vous propose des étapes simples et illustrées pour personnaliser votre expérience.
+Apprenez à configurer et optimiser Steam sur Linux pour une expérience de jeu fluide. Ce guide couvre les réglages essentiels, de la gestion des disques à la résolution des problèmes fréquents.
 
-<br>
+## 📌 Table des Matières
 
-# Table des Matières
+1. [🌍 Changer la Langue](https://www.google.com/search?q=%23changer-la-langue)
+2. [💾 Ajout de Disque & Stockage](https://www.google.com/search?q=%23ajout-de-disque)
+3. [📡 Désactiver Remote Play](https://www.google.com/search?q=%23d%C3%A9sactiver-remote-play)
+4. [📊 Afficher les FPS](https://www.google.com/search?q=%23afficher-les-fps)
+5. [📂 Trouver le chemin d'installation](https://www.google.com/search?q=%23trouver-le-chemin-d-installation-de-vos-jeux)
+6. [🚀 Booster la vitesse de téléchargement](https://www.google.com/search?q=%23astuce-pour-am%C3%A9liorer-la-vitesse-de-t%C3%A9l%C3%A9chargement)
+7. [🛠️ Problèmes d'affichage et compatibilité](https://www.google.com/search?q=%23probl%C3%A8me-de-compatibilit%C3%A9)
+8. [♻️ Réparation et Nettoyage](https://www.google.com/search?q=%23r%C3%A9paration-et-nettoyage)
 
-1. [Changer la Langue](#changer-la-langue)
-3. [Ajout de Disque](#ajout-de-disque)
-4. [Désactiver Remote Play](#désactiver-remote-play)
-5. [Afficher les FPS](#afficher-les-fps)
-6. [Trouver le chemin d'installation de vos jeux](#trouver-le-chemin-d-installation-de-vos-jeux)
-7. [Astuce pour améliorer la vitesse de téléchargement](#astuce-pour-améliorer-la-vitesse-de-téléchargement)
-8. [Problème de compatibilité](#problème-de-compatibilité)
+---
 
-<br>
+## 🌍 Changer la Langue
 
-## Changer la Langue
-
-Changez la langue de l'interface Steam :
-
-<p align="center">
-  <img width="850" src="https://codeberg.org/Gaming-Linux-FR/steam-post-install/raw/branch/main/Steam%20langue.png" alt="langue">
-</p>
-
-<br>
-
-## Ajout de disque
-
-Ajoutez des emplacements de stockage pour vos jeux en configurant des dossiers supplémentaires de bibliothèque de jeux :
+Pour adapter l'interface de Steam à votre préférence :
 
 <p align="center">
-  <img width="850" src="https://codeberg.org/Gaming-Linux-FR/steam-post-install/raw/branch/main/Steam%20ajout%20de%20disque.png" alt="ajout-disque">
+<img width="850" src="https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/Steam%2520langue.png" alt="Configuration langue">
 </p>
 
-**Astuce pour monter un disque secondaire :** Si vous rencontrez des difficultés pour monter vos Disques / SSDs secondaires au démarrage, consultez [ce guide](https://codeberg.org/Gaming-Linux-FR/guide-formater-monter).
+---
 
-**Astuce pour Flatpak :** Si vous utilisez Steam en version Flatpak, consultez [ce guide](https://codeberg.org/Gaming-Linux-FR/glf-astuces#acc%C3%A9der-%C3%A0-un-disque-secondaire-avec-une-application-flatpak) pour ajouter des disques secondaires.
+## 💾 Ajout de disque
 
-<br>
-
-## Désactiver remote play
-
-Si vous n'utilisez pas la fonctionnalité Remote Play, qui permet de streamer des jeux sur d'autres appareils, vous pouvez facilement la désactiver pour éviter que le service ne tourne en tache de fond :
+Gérez vos bibliothèques de jeux sur plusieurs disques (SSD, HDD secondaire) :
 
 <p align="center">
-  <img width="850" src="https://codeberg.org/Gaming-Linux-FR/steam-post-install/raw/branch/main/D%C3%A9sactiver%20remote%20play.png" alt="désactiver-remote-play">
+<img width="850" src="https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/Steam%2520ajout%2520de%2520disque.png" alt="Ajout de disque">
 </p>
 
-## Afficher les FPS
+> 💡 **Disque non reconnu ?**
+> * **Montage automatique :** Consultez notre [guide pour formater et monter un disque](https://codeberg.org/Gaming-Linux-FR/guide-formater-monter).
+> * **Version Flatpak :** Si Steam ne voit pas vos dossiers, utilisez [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) pour autoriser l'accès aux disques externes.
+> 
+> 
 
-Option pour afficher les fps en jeu, il existe d'autres solutions plus complètes mais passer par Steam reste le plus simple et surtout le plus stable.
+---
+
+## 📡 Désactiver Remote Play
+
+Si vous ne jouez pas en streaming vers d'autres appareils, désactivez cette option pour économiser des ressources en arrière-plan :
 
 <p align="center">
-  <img width="850" src="https://codeberg.org/Gaming-Linux-FR/steam-post-install/raw/branch/main/steamfps.png" alt="steamfps">
+<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/D%C3%A9sactiver%20remote%20play.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/D%25C3%25A9sactiver%2520remote%2520play.png)" alt="Désactiver Remote Play">
 </p>
 
-## Trouver le chemin d'installation de vos jeux
+---
 
-Si par exemple vous voulez moder vos jeux, sur Linux les chemins d'installation de vos jeux ne sont pas les mêmes que sur Windows, mais pas de tracas, plutôt que de chercher faites clic droit sur le jeu, propriété et dans l'onglet `Fichiers Installés` vous pourrez cliquer sur `parcourir` et vous vous retrouvez directement dans le dossier d'installation du jeu.
+## 📊 Afficher les FPS
+
+Pour surveiller vos performances sans outils externes complexes :
 
 <p align="center">
-  <img width="850" src="https://codeberg.org/Gaming-Linux-FR/steam-post-install/raw/branch/main/steam-fichiers.png" alt="steam-fichiers">
+<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamfps.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamfps.png)" alt="Affichage FPS">
 </p>
 
-## Astuce pour améliorer la vitesse de téléchargement
+---
 
-Si vous constatez que vos téléchargements sur Steam sont plus longs que ce que vous pouvez voir ailleurs, alors vous pouvez tenter de désactiver le HTTP2.
+## 📂 Trouver le chemin d'installation de vos jeux
 
-Pour cela, copiez collez les linges suivantes dans un terminal : 
+Sur Linux, les fichiers sont souvent cachés dans des dossiers complexes. Pour y accéder facilement (modding, sauvegardes manuelles) :
+**Clic droit sur le jeu > Propriétés > Fichiers installés > Parcourir.**
 
-Steam natif :
+<p align="center">
+<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steam-fichiers.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steam-fichiers.png)" alt="Parcourir les fichiers">
+</p>
 
-```
+---
+
+## 🚀 Astuce pour améliorer la vitesse de téléchargement
+
+Si votre fibre semble bridée sur Steam Linux, désactiver le protocole HTTP2 peut stabiliser et accélérer le débit.
+
+Ouvrez un terminal et copiez les lignes correspondant à votre installation :
+
+**Steam Natif (.deb, .rpm, arch) :**
+
+```bash
 echo "@nClientDownloadEnableHTTP2PlatformLinux 0" >> ~/.steam/steam/steam_dev.cfg
 echo "@fDownloadRateImprovementToAddAnotherConnection 1.0" >> ~/.steam/steam/steam_dev.cfg
-```
-
-Steam Flatpak :
 
 ```
+
+**Steam Flatpak :**
+
+```bash
 echo "@nClientDownloadEnableHTTP2PlatformLinux 0" >> ~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg
 echo "@fDownloadRateImprovementToAddAnotherConnection 1.0" >> ~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg
+
 ```
 
-# Problème de compatibilité
+---
 
-Si et seulement si vous rencontrez des problèmes, comme par exemple la boutique qui affiche un écran noir ou l'imposibilité de cliquer sur certaines options, vous pouvez essayer de jouer avec ces 2 options encadrées :
+## 🛠️ Problème de compatibilité (Interface)
+
+En cas d'écran noir dans la boutique ou de bugs graphiques de l'interface Steam, modifiez ces options dans les paramètres **Interface** :
 
 <p align="center">
-  <img width="850" src="https://codeberg.org/Gaming-Linux-FR/steam-post-install/raw/branch/main/steamcompat.png" alt="steam-fichiers">
+<img width="850" src="[https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamcompat.png](https://www.google.com/search?q=https://raw.githubusercontent.com/Cardiacman13/steam-guide-fr/main/steamcompat.png)" alt="Compatibilité interface">
 </p>
+
+---
+
+## ♻️ Réparation et Nettoyage <a name="réparation-et-nettoyage"></a>
+
+Parfois, un jeu refuse de se lancer à cause d'un "préfixe" (le dossier Windows virtuel créé par Proton) corrompu. Voici comment faire le ménage.
+
+### 1. Supprimer le préfixe d'un jeu
+
+Si un jeu bugue après une mise à jour ou un changement de version Proton, supprimer son dossier `pfx` permet de le réinitialiser proprement sans supprimer le jeu.
+
+* **Chemin (Natif) :** `~/.steam/steam/steamapps/compatdata/[ID_DU_JEU]/pfx`
+* **Chemin (Flatpak) :** `~/.var/app/com.valvesoftware.Steam/.steam/steam/steamapps/compatdata/[ID_DU_JEU]/pfx`
+
+> ⚠️ **Attention :** Si le jeu n'utilise pas le *Steam Cloud*, vos sauvegardes locales peuvent se trouver dans ce dossier. Faites une copie avant !
+
+### 2. Vider le cache des Shaders
+
+Si vous avez des micro-saccades (stuttering), vous pouvez supprimer le cache de shaders pour forcer Steam à les recalculer.
+
+* Dossier : `.../steamapps/shadercache/`
